@@ -75,6 +75,7 @@ function draw() {
     if (keyDown(LEFT_ARROW) && player.position.x > (playerImage.width / 2)) {
       player.position.x -= 8;
       playerImage.scale(-1,1);
+      console.log("test");
     }
     if (keyDown(DOWN_ARROW) && player.position.y < (height - (playerImage.height / 2))) {
         player.position.y += 8;
